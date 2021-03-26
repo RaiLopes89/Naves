@@ -1,0 +1,18 @@
+:root {
+    --first-color: #323d4a;
+    --second-color: #43bc9a;
+    --first-color-lighten: #FFF;
+    --first-color-dark: #000;
+}
+
+#cabecalho{
+    background-color: #323d4a !important;
+    color:white !important;
+    font-size: large;
+    height: 50px;
+    font-family: monospace;
+}
+
+#formulario{
+    box-sizing: border-box;
+}

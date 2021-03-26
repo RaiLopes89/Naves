@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Grid System</title>
+</head>
+
+<body>
+    
+    <!-- Estamos criando um container para armazenar as colunas de grid: -->
+    <div class="container border">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 border">
+                Ubuntu
+            </div>
+            <div class="col-6 border">
+                Debian
+            </div>
+            <div class="col border">
+                Lubuntu
+            </div>
+
+        </div>
+
+        <!-- Uma linha com uma unica coluna que ocupa os 12 itens -->
+
+        <div class="row">
+            <div class="col-12">
+                12 Colunas
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 border border-success">
+                A
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 border border-warning">
+                B
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 border border-dark">
+                C
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-5">
+                A
+            </div>
+            <div class="col-cm-12 col-md-4 col-lg-4">
+                B
+            </div>
+            <div class="col-cm-12 col-md-4 col-lg-3">
+                C
+            </div>
+        </div>
+        <div class="row">
+            <div class="col border border-success order-md-2">
+                Terceira
+            </div>
+        </div>
+
+        <div class="row">
+
+
+        </div>
+        <!-- Especificando alinhamento às colunas: -->
+        <!-- Alinhamentos verticais possívies:
+             - topo: start
+             - centro: center
+             - rodapé: end
+             - stretch: ocupar a altura do elemento pai (linha)
+        -->
+        <div class="row align-items-end border border-success" style="height: 200px">
+
+            <div class="col border">Coluna 1</div>
+            <div class="col border">Coluna 2</div>
+
+        </div>
+
+        <!-- Alinhamento vertical indivi
+dual: -->
+        <div class="row border bg-success" style="height: 200px">
+
+            <div class="col border bg-warning align-self-start">
+                COL 1
+            </div>
+            <div class="col border bg-warning align-self-center">
+                COL 2
+            </div>
+            <div class="col border bg-warning align-self-end">
+                COL 3
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid border mt-3">
+        Conteiner Fluido
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
